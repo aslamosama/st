@@ -44,6 +44,9 @@ Personal build of st generated using [st-flexipatch](https://github.com/bakkeby/
    - [iso14755](https://st.suckless.org/patches/iso14755/)
       - pressing the default binding Ctrl+Shift-i will popup dmenu, asking you to enter a unicode codepoint that will be converted to a glyph and then pushed to st
 
+   - [keyboard-select](https://st.suckless.org/patches/keyboard_select/)
+      - allows you to select text on the terminal using keyboard shortcuts
+
    - [ligatures](https://st.suckless.org/patches/ligatures/)
       - adds support for drawing ligatures using the Harfbuzz library to transform original text of a single line to a list of glyphs with ligatures included
 
