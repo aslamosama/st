@@ -30,6 +30,10 @@ Personal build of st generated using [st-flexipatch](https://github.com/bakkeby/
   - adds support for CSI escape sequences 22 and 23, which save and restores the window title
     (for instance nvim does this when opening and closing)
 
+- [drag-n-drop](https://st.suckless.org/patches/drag-n-drop)
+
+  - allows dragging a file into the terminal and have the path printed
+
 - [externalpipe](https://st.suckless.org/patches/externalpipe/)
 
   - this patch allows for reading and writing st's screen through a pipe, e.g. to pass info to dmenu
