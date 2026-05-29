@@ -5,13 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:pixelsize=13:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:pixelsize=20:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
-    "Symbols Nerd Font:pixelsize=12:antialias=true:autohint=true",
-    "Unifont:pixelsize=12",
-    "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true",
+    "Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true",
+    "Unifont:pixelsize=18",
+    "NotoColorEmoji:pixelsize=14:antialias=true:autohint=true",
 };
 #endif // FONT2_PATCH
 
@@ -166,7 +166,7 @@ unsigned int tabspaces = 8;
 
 #if ALPHA_PATCH
 /* bg opacity */
-float alpha = 0.50;
+float alpha = 0.85;
 #if ALPHA_GRADIENT_PATCH
 float grad_alpha = 0.54; // alpha value that'll change
 float stat_alpha = 0.46; // constant alpha value that'll get added to grad_alpha
